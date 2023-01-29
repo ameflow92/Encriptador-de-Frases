@@ -1,0 +1,118 @@
+body
+{
+	width: 940px;
+	margin: 0 auto;
+	background-color: #efefef;
+}
+header
+{
+	width: 100%;
+	text-align: center;
+}
+.logo
+{
+	width: 10%;
+	position: absolute;
+	top: 5px;
+	left: 15%;
+}
+header h1
+{
+	font-size: 24px;
+	padding: 30px;
+}
+main
+{
+	background: linear-gradient(#efefef,#000000); 
+	width: 100%;
+	padding: 3% 0;
+	text-align: center;
+}
+#textoFrase, #textoResultado
+{
+	width: 50%;
+	height: 10%;
+	margin: 0 25%;
+	padding: 15px 0;
+	text-align: center;
+	resize: none;
+}
+#textoResultado
+{
+	display: none;
+}
+.cajas p
+{
+	padding: 10px 0;
+	font-size: 14px;
+	color: #ffaa01;
+	font-weight: bold;
+}
+.botones
+{
+	padding: 3% 0;
+}
+#encriptar, #desencriptar, #copiar
+{
+	width: 130px;
+	background-color: #efefef;
+	padding: 5px 5px;
+	margin: 0 10px;
+	font-size: 14px;
+	border: 2px solid #efefef;
+	border-radius: 15px;
+}
+#encriptar:hover, #desencriptar:hover, #copiar:hover
+{
+	border: 2px solid #ffaa01;
+}
+#copiar
+{
+	display: none;
+}
+footer
+{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #000000;
+}
+footer p
+{
+	color: #efefef;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.networks
+{
+	width: 100%;
+	padding: 5px 0;
+}
+.networks li
+{
+	display: inline;
+}
+.links
+{
+	width: 5%;
+	margin: 10px 10px;
+	padding: 5px 5px;
+	transition: 100ms;
+	border-radius: 15px;
+}
+.links:hover
+{
+	border: 2px solid #ffaa01;
+}
+@media screen and (max-width:480px)
+{
+	body
+	{
+		width: 480px;
+	}
+	.logo
+	{
+		width: 10%;
+	}
+}

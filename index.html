@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Encriptador</title>
+        <link rel="shortcut icon" href="pictures/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="pictures/logo.png" class="logo" alt="Logo de Ametec">
+            <h1>Encriptador de texto</h1>
+        </header>
+        <main>
+            <div class="cajas">
+                <textarea id="textoFrase" placeholder="Ingrese aqui el texto"></textarea>
+                <textarea readonly id="textoResultado" placeholder="Sin resultado"></textarea>
+                <p>Solo minusculas y sin caracteres especiales</p>
+            </div>
+            <div class="botones">
+                <button id="encriptar">🔒 Encriptar</button>
+                <button id="desencriptar">🔓 Desencriptar</button>
+                <button id="copiar">✏ Copiar</button>
+            </div>
+        </main>
+        <footer>
+            <p>Américo Morán | Encriptador | Copyrigth 2023</p>
+            <nav class="networks">
+                <ul>
+                    <li>
+                        <a href="https://github.com/ameflow92"><img src="pictures/logo-github.png" class="links"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/americo-moran-3690a9263/"><img src="pictures/logo-linkedin.png" class="links"></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
+<script src="back-end.js">
+</script>
